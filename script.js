@@ -12,28 +12,7 @@ tabButtons.forEach(btn => {
     });
 });
 
-// Load images
-/* Style for the carousel container */
-.carousel {
-    display: flex; /* Arrange images in a row */
-    overflow-x: auto; /* Enable horizontal scrolling */
-    scroll-snap-type: x mandatory; /* Optional: Makes scrolling snap to each image */
-    -webkit-overflow-scrolling: touch; /* For smooth scrolling on iOS */
-    margin-bottom: 20px; /* Add some space below the carousel */
-}
 
-/* Style for each image in the carousel */
-.carousel img {
-    width: 100%; /* Adjust as needed - this makes each image take full width of the container initially */
-    flex: 0 0 auto; /* Don't grow or shrink, maintain automatic width */
-    scroll-snap-align: start; /* Optional: Align the start of each image on scroll */
-    margin-right: 10px; /* Add some spacing between images */
-}
-
-/* Remove margin from the last image */
-.carousel img:last-child {
-    margin-right: 0;
-}
 
 const carousel = document.getElementById('carousel');
 const imageCount = 10; // Change to match your actual images
