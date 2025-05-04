@@ -14,7 +14,7 @@ tabButtons.forEach(btn => {
 
 // Load images
 const carousel = document.getElementById('carousel');
-const imageCount = 5; // Change to match your actual images
+const imageCount = 10; // Change to match your actual images
 for (let i = 1; i <= imageCount; i++) {
     const img = document.createElement('img');
     img.src = `photos/car${i}.jpg`;
