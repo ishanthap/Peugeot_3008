@@ -1,0 +1,54 @@
+body {
+    font-family: sans-serif;
+    background: #f5f5f5;
+    margin: 0;
+}
+.container {
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+}
+.carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    margin-bottom: 20px;
+}
+.carousel img {
+    width: 300px;
+    border-radius: 8px;
+}
+.tabs {
+    display: flex;
+    gap: 10px;
+    margin: 20px 0;
+}
+.tab-button {
+    padding: 10px 20px;
+    background: #eee;
+    border: none;
+    cursor: pointer;
+}
+.tab-button.active {
+    background: #0077cc;
+    color: white;
+}
+.tab-content {
+    margin-top: 20px;
+}
+.tab-content.hidden {
+    display: none;
+}
+h3 {
+    margin-top: 20px;
+}
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    border-bottom: 1px solid #ccc;
+    text-align: left;
+}
